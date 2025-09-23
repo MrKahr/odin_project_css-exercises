@@ -1,1 +1,20 @@
 /* Add CSS Styling */
+p {
+    background-color: pink; 
+    font-size: 12pt; 
+}
+.class_two {
+    font-size: 20pt;
+}
+
+#id_one { 
+    color: blue;
+    font-size: 48pt;
+}
+
+#id_two {
+    background-color: green;
+    font-weight: bold;
+    font-size:24pt; 
+}
+

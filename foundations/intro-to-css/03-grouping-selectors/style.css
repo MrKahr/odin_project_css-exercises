@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+button {
+    border: 1px solid;
+    font-family: "Times New Roman";
+    font-size: 28pt; 
+}
+
+#b1 {
+    background-color: black;
+    color: white;
+}
+
+#b2 {
+    background-color: yellow;
+    color:black;
+}
+    

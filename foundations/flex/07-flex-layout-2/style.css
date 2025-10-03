@@ -27,3 +27,54 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* Solution here */
+body {
+ display: flex;
+ flex-direction: column;
+}
+ul {
+  list-style: none;
+}
+
+li {
+ margin-bottom: 16px;
+}
+
+a {
+  color: white;
+}
+.card {
+    max-width: 300px;
+    padding: 16px;
+}
+
+.container{
+ display:flex;
+ gap: 32px;
+ flex-wrap: wrap;
+}
+
+.content_body{
+    display: flex;
+    gap:32px;
+    flex: 1; /*This was the only major difference*/
+}
+.header {
+ display:flex;
+ align-items: center;
+ font-size: 32px;
+ font-weight:bold;
+ padding: 0px 8px;
+}
+
+.footer {
+ display:flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.sidebar {
+ flex-shrink: 0;
+ padding: 16px;
+}
